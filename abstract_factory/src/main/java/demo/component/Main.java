@@ -17,6 +17,11 @@ import demo.component.uifactory.WinUIFactory;
  *      product gets created. - Here UIFactory
  * 4. Actual product factories - WinUIFactory , MacUIFactory
  * 5. Client - Application will take the respective factory and creates object and then you can paint UI.
+ *
+ * Java lib example which is most famous that DOM Parser factory .It uses abstract factory pattern for creations.
+ *
+ *
+ * Reference example  : https://refactoring.guru/design-patterns/abstract-factory/java/example
  */
 public class Main {
     public static void main(String[] args) {
