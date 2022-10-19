@@ -18,8 +18,9 @@ import demo.component.uifactory.WinUIFactory;
  * 4. Actual product factories - WinUIFactory , MacUIFactory
  * 5. Client - Application will take the respective factory and creates object and then you can paint UI.
  *
- * Java lib example which is most famous that DOM Parser factory .It uses abstract factory pattern for creations.
- *
+ * Java lib example which is most famous that DOM Parser .It uses abstract factory pattern for creations.
+ * The DocumentBuilderFactory is an abstract factory, a factory that is created as a new instance of DocumentBuilderFactory and the Document is an interface that is implemented by the factory to return the response.
+ * We don't know here which type of DocumentBuilder we got but based on our input it has given correct instance.
  *
  * Reference example  : https://refactoring.guru/design-patterns/abstract-factory/java/example
  */
