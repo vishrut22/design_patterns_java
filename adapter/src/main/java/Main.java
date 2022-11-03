@@ -15,13 +15,15 @@
  * between array to list and then use collections.
  *
  * Another example in java where adapter mostly used is io package. Where Reader/Writer class has InputStream and Outputsteam so we can pass
- * respectively whether we can pass File or Console streams.
+ * respectively whether we can pass File or Console streams it helps to convert to reader or writer.
+ * https://cecs.wright.edu/~tkprasad/courses/ceg860/paper/node26.html
  *
  * In this example we will see that Swiggy is selling food products now suddenly lockdown arise
  * and they thought to provide service of delivering grocery items for sometime so they write adapter which
  * helps them to convert similar to food item without touching their food delivery business.
  *
  * https://www.javadevjournal.com/java-design-patterns/adapter-design-pattern/
+ *
  * Reference  : https://www.programmergirl.com/java-adapter-pattern/
  */
 public class Main {
