@@ -18,6 +18,7 @@
  * 2. Real Class
  * 3. Proxy class - this uses the realclass and it is proxy of real class.
  *
+ * https://www.javadevjournal.com/java-design-patterns/proxy-design-pattern/
  * Example consider as Bank Account and ATM where to operate your bank account you have ATM which is proxy of doing process in bank account.
  *
  */
