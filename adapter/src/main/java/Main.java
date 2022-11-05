@@ -14,8 +14,8 @@
  * which is using array and you want to use collection functionalities to do so we have to convert, so Arrays.asList work as adaper
  * between array to list and then use collections.
  *
- * Another example in java where adapter mostly used is io package. Where Reader/Writer class has InputStream and Outputsteam so we can pass
- * respectively whether we can pass File or Console streams it helps to convert to reader or writer.
+ * A java.io.InputStreamReader translates a byte stream into a character stream, and a java.io.OutputStreamWriter translates a character stream into a byte stream. These classes exemplify the Adapter pattern.
+ * In particular, they change input/output stream interfaces to the required reader/writer interfaces
  * https://cecs.wright.edu/~tkprasad/courses/ceg860/paper/node26.html
  *
  * In this example we will see that Swiggy is selling food products now suddenly lockdown arise
